@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <title>Wielki przycisk</title>
+    </head>
+    <body>
+    
+    <style>
+        .button{
+            border-radius: 4px;
+            background-color:#f4511e;
+            color:#FFFFFF;
+            text-align: center;
+            font: size 28px;
+            padding: 20px 30px;
+            cursor: pointer;
+            position: relative;
+            transition: all 0,5s;
+            text-transform: uppercase;
+        }
+        .button:hover{
+            background-color:rgb(189, 0, 0)''
+        }
+        .button :first-child{
+            padding-left: 10px;
+            transition: all 0.5s;
+        }
+        .button :hover :first-child{
+            padding-left: 0px;
+        }
+        .button :last-child{
+            opacity:0
+            transition: all 0.5s;
+            padding=left:0px;
+        }
+        .button:hover :last-child{
+            opacity 1
+            padding-left: 10px;
+        }
+        body{
+            margin:0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+        }
+        button{
+            padding:20px 40px;
+            font-size:24px;
+            background-color: red;
+            color:white;
+            border:none;
+            border-radius: 10px;
+            cursor:pointer;
+            transition:transform 0.2s;
+
+        }
+        button:hover {
+            transform: scale(1.1);
+        }
+    </style>
+    </body>
+    <body>
+        <a href="https://www.pornhub.com/gay"><button>Wielki czerwony Przycisk <span>	&#9607;</span></button></a>
+
+    </body>
+   </html>
+
+
+
+ 
+
+
+
+
+
+    
+  
